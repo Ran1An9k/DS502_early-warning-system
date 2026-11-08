@@ -1,0 +1,2 @@
+threshold,accuracy,balanced_accuracy,precision,recall_sensitivity,specificity,f1,roc_auc,pr_auc_average_precision,brier_score,false_positive_rate,false_negative_rate,tn,fp,fn,tp
+0.23,0.625,0.4642857142857143,0.1,0.25,0.6785714285714286,0.14285714285714285,0.6428571428571428,0.3872282608695652,0.1295313274438213,0.32142857142857145,0.75,19,9,3,1

@@ -1,0 +1,28 @@
+{
+  "model": "DecisionTreeClassifier",
+  "dataset": "notebooks\\Cleaned_synthetic_stu_Data.csv",
+  "target": "academic_risk",
+  "numeric_features": [
+    "attendance_week_1_4",
+    "early_assessment_result"
+  ],
+  "categorical_features": [
+    "program",
+    "academic_term"
+  ],
+  "blocked_leakage_columns": [
+    "Course Outcomes",
+    "Semester GPA",
+    "Cumulative GPA",
+    "Progression Status",
+    "Credits Completed"
+  ],
+  "split_method": "chronological",
+  "selected_threshold": 0.05,
+  "threshold_selection_rule": "Highest F1 because target recall was not reached",
+  "target_recall": 0.8,
+  "random_state": 42,
+  "train_rows": 148,
+  "validation_rows": 32,
+  "test_rows": 32
+}
